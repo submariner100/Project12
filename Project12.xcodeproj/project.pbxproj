@@ -12,6 +12,8 @@
 		276CCD241EA0113200AEBA2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276CCD221EA0113200AEBA2A /* Main.storyboard */; };
 		276CCD261EA0113200AEBA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276CCD251EA0113200AEBA2A /* Assets.xcassets */; };
 		276CCD291EA0113200AEBA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276CCD271EA0113200AEBA2A /* LaunchScreen.storyboard */; };
+		27D788FC1EA646BE005D6AB8 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D788FB1EA646BE005D6AB8 /* PersonCell.swift */; };
+		27D788FE1EA646DE005D6AB8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D788FD1EA646DE005D6AB8 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		276CCD251EA0113200AEBA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276CCD281EA0113200AEBA2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		276CCD2A1EA0113200AEBA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D788FB1EA646BE005D6AB8 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		27D788FD1EA646DE005D6AB8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		276CCD1D1EA0113200AEBA2A /* Project12 */ = {
 			isa = PBXGroup;
 			children = (
+				27D788FD1EA646DE005D6AB8 /* Person.swift */,
+				27D788FB1EA646BE005D6AB8 /* PersonCell.swift */,
 				276CCD1E1EA0113200AEBA2A /* AppDelegate.swift */,
 				276CCD201EA0113200AEBA2A /* ViewController.swift */,
 				276CCD221EA0113200AEBA2A /* Main.storyboard */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				276CCD211EA0113200AEBA2A /* ViewController.swift in Sources */,
+				27D788FC1EA646BE005D6AB8 /* PersonCell.swift in Sources */,
+				27D788FE1EA646DE005D6AB8 /* Person.swift in Sources */,
 				276CCD1F1EA0113200AEBA2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				276CCD2F1EA0113200AEBA2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
